@@ -101,10 +101,23 @@
 
 // cuentaRegresiva(5)
 
-function Deletrear(string){
-  for(var i = 0; i < string.length; i++){
-     console.log(string[i])
-  }
-}
-Deletrear("Manzana y Mamá")
+// function Deletrear(string){
+//   for(var i = 0; i < string.length; i++){
+//      console.log(string[i])
+//   }
+// }
+// Deletrear("Manzana y Mamá")
+//CICLO FOR
+// for(var i = 0 ; i < 5; i++){
+//   console.log(i);
+// }
 
+function encontrarVocalA(string){
+  for(var i = 0; i < string.length ; i ++){
+      if(string[i] === 'a'){
+        return 'Encontre la A'
+      }
+  }
+  return 'No tiene la letra A';
+}    
+console.log(encontrarVocalA('Pepina'))
