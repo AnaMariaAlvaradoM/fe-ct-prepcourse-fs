@@ -112,12 +112,28 @@
 //   console.log(i);
 // }
 
-function encontrarVocalA(string){
-  for(var i = 0; i < string.length ; i ++){
-      if(string[i] === 'a'){
-        return 'Encontre la A'
-      }
-  }
-  return 'No tiene la letra A';
-}    
-console.log(encontrarVocalA('Pepina'))
+// function encontrarVocalA(string){
+//   for(var i = 0; i < string.length ; i ++){
+//       if(string[i] === 'a'){
+//         return 'Encontre la A'
+//       }
+//   }
+//   return 'No tiene la letra A';
+// }    
+// console.log(encontrarVocalA('Pepina'))
+ 
+// console.log(comidaRapida.length);
+
+// var nombre = 'Henry';
+
+// for(var i = 0 ; 1 < nombre.length; i++){
+//   console.log(nombre[i]);
+// }
+
+// var comidaRapida = ['Pizza', 'Hamburguesa', 'Hot Dog', 'Lasagna']
+
+// for(var i = 0; i < comidaRapida.length; i++){
+//   console.log(comidaRapida[i])
+// }
+
+
